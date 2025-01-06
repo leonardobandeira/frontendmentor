@@ -15,6 +15,9 @@ Opa! 👋 Este é um projeto simples feito como parte do desafio [QR Code Compon
 
 Foi divertido e me ajudou a melhorar minha atenção aos detalhes! 🎉
 
+# Meu resultado
+![Resultado do desafio](./resultado.png)
+
 ---
 
 Feito com 💻 e ☕
