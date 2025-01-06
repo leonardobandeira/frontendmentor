@@ -1,0 +1,53 @@
+/* RESET CSS MODERNO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased; /* Suaviza fontes no macOS e iOS */
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit; /* Garante que a tipografia seja herdada */
+  }
+  
+  button {
+    cursor: pointer; /* Garante que botões tenham o cursor correto */
+    border: none;
+    background: none;
+  }
+  
+  a {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit; /* Usa a cor do texto do pai */
+  }
+  
+  ul, ol {
+    list-style: none; /* Remove marcadores de lista */
+  }
+  
+  table {
+    border-collapse: collapse; /* Remove espaçamento entre células */
+    width: 100%;
+  }
+  
+  :focus {
+    outline: 2px solid blue; /* Acessibilidade: adiciona contorno visível ao foco */
+  }
+  
+  :focus:not(:focus-visible) {
+    outline: none; /* Remove contorno para cliques com mouse */
+  }
+  
